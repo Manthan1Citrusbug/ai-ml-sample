@@ -1,8 +1,8 @@
-# hs_prompts
+# Prompt Engine
 
 ## Overview
 
-The `hs_prompts` package is designed to facilitate the creation of customized prompts for chat assistant bots. This package includes classes for defining the escalation process of issues (`EscalateIssue`) and for creating chat assistant prompts (`Prompt`). These classes help streamline the configuration and management of chat assistant behaviors.
+The `prompts_engine` package is designed to facilitate the creation of customized prompts for chat assistant bots. This package includes classes for defining the escalation process of issues (`EscalateIssue`) and for creating chat assistant prompts (`Prompt`). These classes help streamline the configuration and management of chat assistant behaviors.
 
 ## Setup
 
@@ -40,7 +40,7 @@ The `EscalateIssue` class handles the escalation process when certain triggers a
 #### Example Usage
 
 ```python
-from hs_prompts.custom_functions import EscalateIssue
+from prompts.custom_functions import EscalateIssue
 
 escalate_issue = EscalateIssue()
 
@@ -55,7 +55,7 @@ The `Prompt` class represents a chat assistant prompt, including the bot's ident
 #### Example Usage
 
 ```python
-from hs_prompts.prompt import Prompt
+from prompts.prompt import Prompt
 
 bot_name = "ChatBot"
 role_use_case = "customer support"
