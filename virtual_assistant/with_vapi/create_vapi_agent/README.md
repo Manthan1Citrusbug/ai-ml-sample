@@ -1,7 +1,3 @@
-# HELLOSERVICE.AI
-
-This AWS Lambda function is designed to manage Vapi assistants through API calls, interacting with Supabase for data storage. Here's an overview of its components and functionality:
-
 ## Imports and Configuration
 
 - Imports necessary modules such as `json`, `logging`, `os`, `HTTPStatus` from `http`, and specific components from `postgrest.base_request_builder`, `prompt`, and `requests`.
