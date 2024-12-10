@@ -1,5 +1,3 @@
-# HELLOSERVICE.AI
-
 ## Overview
 
 This project provides an AWS Lambda function that handles GET requests to interact with an AI bot. It uses Supabase as a backend database and the OpenAI API for generating AI responses. The function is designed to work within an event-driven architecture, handling HTTP requests, querying databases, managing sessions, and interacting with OpenAI's language model.
