@@ -1,4 +1,4 @@
-# HS TWILIO CALL HANDLER
+# TWILIO CALL HANDLER
 
 ## Project Overview
 
@@ -23,7 +23,7 @@ This is a Python web application built using the FastAPI framework, served by th
 
 ### Installation
 
-1. Clone the repository: `git clone git@bitbucket.org:helloserviceai/hs-twilio-call-handler.git`
+1. Clone the repository: `git clone <remote-url>`
 2. Create a virtual environment: `python -m venv venv`
 3. Activate the virtual environment: `source venv/bin/activate` (on Linux/Mac) or `venv\Scripts\activate` (on Windows)
 4. Install dependencies: `pip install -r requirements.txt`
